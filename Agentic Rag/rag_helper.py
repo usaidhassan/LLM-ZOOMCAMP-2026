@@ -24,7 +24,7 @@ class RAGBase:
         instructions=INSTRUCTIONS,
         prompt_template=PROMPT_TEMPLATE,
         course='llm-zoomcamp',
-        model='openai/gpt-oss-120b:free'
+        model='google/gemma-4-31b-it:free'
     ):
         self.index = index
         self.llm_client = llm_client
